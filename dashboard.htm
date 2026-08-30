@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>2nd page</title>
+ </head>
+<body>
+  <h1>
+    Hello, World!
+  </h1>
+  <div class="nav-bar">
+    <div class="nav-icon">
+      <span><i class="fa-solid fa-ellipsis-vertical" onclick="toggledropdown()"></i></span>
+    </div>
+  </div>
+  <div class="search-box">
+    <input type="text" placeholder="search audio and topics">
+     <span class="search-icon"><i class="fa-solid fa-magnifying-glass" onclick="toggleSearch()"></i></span>
+  </div>
+   <div class="dropdown-menu" id="dropdownmenu">
+    <div class="dropdown-icon" onclick="addaudio()">
+      <span class="audio-icon">
+        <i class="fa-solid fa-music"></i> 
+      </span>
+    </div>
+    <div class="dropdown-icon" onclick="logout()">
+      <span class="logout-icon">
+        <i class="fa-solid fa-right-from-bracket"></i>
+      </span>
+     </div>
+   </div>
+  </div>
+</body>
+</html>
