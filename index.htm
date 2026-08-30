@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my 1st project</title>
+</head>
+<body>
+     <h1>welcome our page</h1>
+    <div class="user-icon">
+      <span class="user-icon">
+          <i class="fa-solid fa-user"></i>
+      </span><br>
+        <input type="text" id="userid" placeholder="enter user id"> 
+    </div>
+    <div class="password">
+        <input type="password" id="password" placeholder="enter password">
+    </div>
+    <div id="error">[please enter valid userid and password]</div>
+    <div class="option">
+        <div class="remember">  
+            <label><input type="checkbox">remember me </label> 
+        </div>
+        <button class="forgot" onclick="forgotPassword()">
+            <a href="#">forgot Password?</a>
+        </button>
+    </div>
+    <button class="submit" onclick="Login()">Login</button>
+</body>
+</html>
